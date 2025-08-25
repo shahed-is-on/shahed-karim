@@ -3,9 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return Inertia::render('Welcome');
 })->name('home');
+
+Route::get('/', function() { 
+    return view ('frontend.index-3');
+})->name('nest');
 
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
