@@ -1,0 +1,29 @@
+   <script src="{{asset('assets/js/vendor/jquery.js')}}"></script>
+   <script src="{{asset('assets/js/bootstrap-bundle.js')}}"></script>
+   <script src="{{asset('assets/js/three.js')}}"></script>
+   <script src="{{asset('assets/js/gsap.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-scroll-smoother.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-scroll-trigger.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-scroll-to-plugin.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-split-text.js')}}"></script>
+   <script src="{{asset('assets/js/webgl.js')}}"></script>
+
+   <script src="{{asset('assets/js/swiper-bundle.js')}}"></script>
+   <script src="{{asset('assets/js/slick.js')}}"></script>
+   <script src="{{asset('assets/js/wow.js')}}"></script>
+   <script src="{{asset('assets/js/pagepiling.js')}}"></script>
+   <script src="{{asset('assets/js/headroom.min.js')}}"></script>
+   <script src="{{asset('assets/js/magnific-popup.js')}}"></script>
+   <script src="{{asset('assets/js/nice-select.js')}}"></script>
+   <script src="{{asset('assets/js/purecounter.js')}}"></script>
+   <script src="{{asset('assets/js/hammer.js')}}"></script>
+   <script src="{{asset('assets/js/matter.js')}}"></script>
+   <script src="{{asset('assets/js/throwable.js')}}"></script>
+   <script src="{{asset('assets/js/isotope-pkgd.js')}}"></script>
+   <script src="{{asset('assets/js/imagesloaded-pkgd.js')}}"></script>
+   <script src="{{asset('assets/js/ajax-form.js')}}"></script>
+
+   <script src="{{asset('assets/js/theme-settings.js')}}"></script>
+   <script src="{{asset('assets/js/animated-headline.js')}}"></script>
+   <script src="{{asset('assets/js/main.js')}}"></script>
+   <script src="{{asset('assets/js/tp-cursor.js')}}"></script>
