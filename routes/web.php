@@ -10,6 +10,18 @@ Route::get('/welcome', function () {
 Route::get('/', function() { 
     return view ('frontend.index-3');
 })->name('nest');
+Route::get('/hello1', function() { 
+    return view ('frontend.index-2');
+})->name('ijk');
+Route::get('/hello2', function() { 
+    return view ('frontend.index');
+})->name('geh');
+Route::get('/hello3', function() { 
+    return view ('frontend.index-4');
+})->name('def');
+Route::get('/hello4', function() { 
+    return view ('frontend.blog');
+})->name('abc');
 
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');

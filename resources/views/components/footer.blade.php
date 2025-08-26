@@ -4,7 +4,7 @@
                      <img src="assets/img/footer/footer-shape.png" alt="">
                   </div>
                   <div class="tp-footer-3__img">
-                     <img src="assets/img/footer/footer-3-1.png" alt="">
+                     <img src="assets/img/footer/shahed.png" alt="">
                   </div>
                   <div class="tp-footer-3__area pt-120 pb-120">
                      <div class="container">
