@@ -26,6 +26,20 @@ Route::get('/hello4', function() {
     return view ('frontend.blog');
 })->name('abc');
 
+Route::get('/about', function() { 
+    return view ('frontend.about-me');
+})->name('about');
+
+Route::get('/portfolio', function() { 
+    return view ('frontend.index-2');
+})->name('portfolio');
+
+Route::get('/contact', function() { 
+    return view ('frontend.contact');
+})->name('contact');
+
+Route::get('/learnwithme', [BlogController::class, 'learnwithme'])->name('learn.me');
+
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

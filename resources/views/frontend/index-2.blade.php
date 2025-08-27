@@ -9,29 +9,25 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+   <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/logo/favicon.png')}}">
 
    <!-- CSS here -->
-   <link rel="stylesheet" href="assets/css/bootstrap.css">
-   <link rel="stylesheet" href="assets/css/animate.css">
-   <link rel="stylesheet" href="assets/css/custom-animation.css">
-   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-   <link rel="stylesheet" href="assets/css/slick.css">
-   <link rel="stylesheet" href="assets/css/pagepiling.css">
-   <link rel="stylesheet" href="assets/css/nice-select.css">
-   <link rel="stylesheet" href="assets/css/magnific-popup.css">
-   <link rel="stylesheet" href="assets/css/hover-reveal.css">
-   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
-   <link rel="stylesheet" href="assets/css/spacing.css">
-   <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/custom-animation.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/pagepiling.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/hover-reveal.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/font-awesome-pro.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/spacing.css')}}">
+   <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
 </head>
 
 <body class="tp-magic-cursor">
-   <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
 
-   <!-- pre loader area start -->
    <div id="loading">
       <div id="loading-center">
          <div id="loading-center-absolute">
@@ -58,7 +54,7 @@
    <!-- End magic cursor -->
 
    <!-- offcanvas area end -->
-   <div class="tp-offcanvas-area">
+    <div class="tp-offcanvas-area">
       <div class="tp-offcanvas-bg is-left"></div>
       <div class="tp-offcanvas-bg is-right d-none d-md-block">
          <div class="tp-offcanvas-shape">
@@ -122,11 +118,12 @@
                
                <div class="tpoffcanvas__right-info">
                   <div class="tpoffcanvas__tel">
-                     <a href="tel:61404093954">+61404093 954</a>
+                     <a href="tel:+8801531542756">+880 153 154 2756</a><br>
+                     <a href="tel:+8801898878819">+880 189 887 8819</a>
                   </div>
                   <div class="tpoffcanvas__mail">
-                     <a href="mailto:hellocontact@diego.com">
-                        hello contact@diego.com</a>
+                     <a href="mailto:info.shahedkarim@gmail.com">
+                        hello info.shahedkarim@gmail.com</a>
                   </div>
                   <div class="tpoffcanvas__text">
                      <p>If in doubt. reach out.</p>
@@ -135,10 +132,12 @@
                
                <div class="tpoffcanvas__social-link">
                   <ul>
-                     <li><a href="#">Dribbble</a></li>
-                     <li><a href="#">Instagram</a></li>
-                     <li><a href="#">Linkedin</a></li>
-                     <li><a href="#">Behance</a></li>
+                     <li><a href="https://www.linkedin.com/in/shahedkarim/">Linkedin</a></li>
+                     <li><a href="https://github.com/infoshahedkarim">Github</a></li>
+                     <li><a href="https://www.behance.net/infoshahedkarim">Behance</a></li>
+                     <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=info.shahedkarim@gmail.com">Email</a></li>
+                     <li><a href="https://www.instagram.com/s_ha_he_d/">Instagram</a></li>
+                     <li><a href="https://www.facebook.com/info.shahedkarim">Facebook</a></li>
                   </ul>
                </div>
             </div>
@@ -157,45 +156,17 @@
                   <div class="tp-header-4__menu text-center">
                      <nav class="tp-main-menu-content menu-hover-active counter-row">
                         <ul>
-                           <li class="has-dropdown active">
-                              <a href="index.html">Home</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="index.html">Freelancer</a></li>
-                                 <li><a href="index-5.html">Fashion Designer</a></li>
-                                 <li><a href="index-4.html">Photographer</a></li>
-                                 <li><a href="index-2.html">Interface Designer</a></li>
-                                 <li><a href="index-3.html">Web Developer</a></li>
-                                 <li><a href="home-8-slider.html">Slider Metro</a></li>
-                                 <li><a href="home-7-slider.html">Slider Elegant</a></li>
-                                 <li><a href="home-6-slider.html">Slider Classic</a></li>
-                              </ul>
+                           <li >
+                              <a href={{route('nest')}}>Home</a>
                            </li>
-                           <li class="active"><a href="about-me.html">About Me</a></li>
-                           <li class="has-dropdown active"><a href="service.html">Services</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="service.html">Service</a></li>
-                                 <li><a href="service-details.html">Service Details</a></li>
-                              </ul>
+                           <li><a href={{route('about')}}>About Me</a></li>
+                           <li >
+                              <a href={{route('portfolio')}}>Portfolio</a>
                            </li>
-                           <li class="has-dropdown active">
-                              <a href="portfolio.html">Portfolio</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="portfolio.html">Porfolio</a></li>
-                                 <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                 <li><a href="portfolio-details-2.html">Portfolio Details 02</a></li>
-                                 <li><a href="portfolio-details-3.html">Portfolio Details 03</a></li>
-                              </ul>
+                           <li >
+                              <a href={{route('learn.me')}}>Blog</a>
                            </li>
-                           <li class="has-dropdown active">
-                              <a href="blog.html">Blog</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="blog.html">Blog List</a></li>
-                                 <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                 <li><a href="blog-details.html">Blog Details</a></li>
-                                 <li><a href="blog-details-2.html">Blog Details 02</a></li>
-                              </ul>
-                           </li>
-                           <li class="active"><a href="contact.html">Contact</a></li>
+                           <li><a href={{route('contact')}}>Contact</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -273,8 +244,8 @@
             <div class="row align-items-center">
                <div class="col-xl-2 col-lg-5 col-md-4 col-6">
                   <div class="tp-header-2__logo">
-                     <a class="logo-white" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                     <a class="logo-black" href="index.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a class="logo-white" href={{route('nest')}}><img src="assets/img/logo/logo.png" alt=""></a>
+                     <a class="logo-black" href={{route('nest')}}><img src="assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
                <div class="col-xl-7 d-none d-xl-block">
@@ -324,7 +295,7 @@
                                  stroke-linecap="round" stroke-linejoin="round" />
                            </svg>
                         </span>
-                        <a href="mailto:diego@mail.com">diego@mail.com</a>
+                        <a href="mailto:info.shahedkarim@gmail.com">info.shahedkarim@gmail.com</a>
                      </div>
                      <div class="tp-header-2__bar parallax-wrap">
                         <button class="tp-menu-bar parallax-element tp-offcanvas-open-btn">
@@ -1380,36 +1351,7 @@
    </main>
 
 
-   <!-- JS here -->
-   <script src="assets/js/vendor/jquery.js"></script>
-   <script src="assets/js/bootstrap-bundle.js"></script>
-   <script src="assets/js/three.js"></script>
-   <script src="assets/js/gsap.js"></script>
-   <script src="assets/js/gsap-scroll-smoother.js"></script>
-   <script src="assets/js/gsap-scroll-trigger.js"></script>
-   <script src="assets/js/gsap-scroll-to-plugin.js"></script>
-   <script src="assets/js/gsap-split-text.js"></script>
-   <script src="assets/js/webgl.js"></script>
-
-   <script src="assets/js/swiper-bundle.js"></script>
-   <script src="assets/js/slick.js"></script>
-   <script src="assets/js/wow.js"></script>
-   <script src="assets/js/pagepiling.js"></script>
-   <script src="assets/js/headroom.min.js"></script>
-   <script src="assets/js/magnific-popup.js"></script>
-   <script src="assets/js/nice-select.js"></script>
-   <script src="assets/js/purecounter.js"></script>
-   <script src="assets/js/hammer.js"></script>
-   <script src="assets/js/matter.js"></script>
-   <script src="assets/js/throwable.js"></script>
-   <script src="assets/js/isotope-pkgd.js"></script>
-   <script src="assets/js/imagesloaded-pkgd.js"></script>
-   <script src="assets/js/ajax-form.js"></script>
-
-   <script src="assets/js/theme-settings.js"></script>
-   <script src="assets/js/animated-headline.js"></script>
-   <script src="assets/js/tp-cursor.js"></script>
-   <script src="assets/js/main.js"></script>
+<x-script/>
 
 </body>
 

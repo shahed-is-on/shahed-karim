@@ -7,53 +7,25 @@
             <div class="row align-items-center">
                <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                   <div class="tp-header-3__logo">
-                     <a class="logo-white" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                     <a class="logo-black" href="index.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a class="logo-white" href={{route('nest')}}><img src="assets/img/logo/logo.png" alt=""></a>
+                     <a class="logo-black" href={{route('nest')}}><img src="assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
                <div class="col-xl-6 d-none">
                   <div class="tp-header-4__menu text-center">
                      <nav class="tp-main-menu-content counter-row">
                         <ul>
-                           <li class="has-dropdown">
-                              <a href="index.html">Home</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="index.html">Freelancer</a></li>
-                                 <li><a href="index-5.html">Fashion Designer</a></li>
-                                 <li><a href="index-4.html">Photographer</a></li>
-                                 <li><a href="index-2.html">Interface Designer</a></li>
-                                 <li><a href="index-3.html">Web Developer</a></li>
-                                 <li><a href="home-8-slider.html">Slider Metro</a></li>
-                                 <li><a href="home-7-slider.html">Slider Elegant</a></li>
-                                 <li><a href="home-6-slider.html">Slider Classic</a></li>
-                              </ul>
+                           <li >
+                              <a href={{route('nest')}}>Home</a>
                            </li>
-                           <li><a href="about-me.html">About Me</a></li>
-                           <li class="has-dropdown"><a href="service.html">Services</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="service.html">Service</a></li>
-                                 <li><a href="service-details.html">Service Details</a></li>
-                              </ul>
+                           <li><a href={{route('about')}}>About Me</a></li>
+                           <li >
+                              <a href={{route('portfolio')}}>Portfolio</a>
                            </li>
-                           <li class="has-dropdown">
-                              <a href="portfolio.html">Portfolio</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="portfolio.html">Porfolio</a></li>
-                                 <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                 <li><a href="portfolio-details-2.html">Portfolio Details 02</a></li>
-                                 <li><a href="portfolio-details-3.html">Portfolio Details 03</a></li>
-                              </ul>
+                           <li >
+                              <a href={{route('learn.me')}}>Learn with Shahed</a>
                            </li>
-                           <li class="has-dropdown">
-                              <a href="blog.html">Blog</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="blog.html">Blog List</a></li>
-                                 <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                 <li><a href="blog-details.html">Blog Details</a></li>
-                                 <li><a href="blog-details-2.html">Blog Details 02</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="contact.html">Contact</a></li>
+                           <li><a href={{route('contact')}}>Contact</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -98,7 +70,7 @@
                         </label>
                      </div>
                      <div class="tp-header-3__btn d-none d-md-block">
-                        <a class="tp-btn-white" href="contact.html">
+                        <a class="tp-btn-white" href={{route('contact')}}>
                            <span class="text">Let’s Talk</span>
                            <span>
                               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -133,53 +105,25 @@
             <div class="row align-items-center">
                <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                   <div class="tp-header-3__logo">
-                     <a class="logo-white" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                     <a class="logo-black" href="index.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a class="logo-white" href={{route('nest')}}><img src="assets/img/logo/logo.png" alt=""></a>
+                     <a class="logo-black" href={{route('nest')}}><img src="assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
                <div class="col-xl-6 d-none">
                   <div class="tp-header-4__menu text-center">
                      <nav class="tp-main-menu-content counter-row">
                         <ul>
-                           <li class="has-dropdown">
-                              <a href="index.html">Home</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="index.html">Freelancer</a></li>
-                                 <li><a href="index-5.html">Fashion Designer</a></li>
-                                 <li><a href="index-4.html">Photographer</a></li>
-                                 <li><a href="index-2.html">Interface Designer</a></li>
-                                 <li><a href="index-3.html">Web Developer</a></li>
-                                 <li><a href="home-8-slider.html">Slider Metro</a></li>
-                                 <li><a href="home-7-slider.html">Slider Elegant</a></li>
-                                 <li><a href="home-6-slider.html">Slider Classic</a></li>
-                              </ul>
+                           <li >
+                              <a href={{route('nest')}}>Home</a>
                            </li>
-                           <li><a href="about-me.html">About Me</a></li>
-                           <li class="has-dropdown"><a href="service.html">Services</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="service.html">Service</a></li>
-                                 <li><a href="service-details.html">Service Details</a></li>
-                              </ul>
+                           <li><a href={{route('about')}}>About Me</a></li>
+                           <li >
+                              <a href={{route('portfolio')}}>Portfolio</a>
                            </li>
-                           <li class="has-dropdown">
-                              <a href="portfolio.html">Portfolio</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="portfolio.html">Porfolio</a></li>
-                                 <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                 <li><a href="portfolio-details-2.html">Portfolio Details 02</a></li>
-                                 <li><a href="portfolio-details-3.html">Portfolio Details 03</a></li>
-                              </ul>
+                           <li >
+                              <a href={{route('learn.me')}}>Blog</a>
                            </li>
-                           <li class="has-dropdown">
-                              <a href="blog.html">Blog</a>
-                              <ul class="tp-submenu submenu">
-                                 <li><a href="blog.html">Blog List</a></li>
-                                 <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                 <li><a href="blog-details.html">Blog Details</a></li>
-                                 <li><a href="blog-details-2.html">Blog Details 02</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="contact.html">Contact</a></li>
+                           <li><a href={{route('contact')}}>Contact</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -224,7 +168,7 @@
                         </label>
                      </div>
                      <div class="tp-header-3__btn d-none d-md-block">
-                        <a class="tp-btn-white" href="contact.html">
+                        <a class="tp-btn-white" href={{route('contact')}}>
                            <span class="text">Let’s Talk</span>
                            <span>
                               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

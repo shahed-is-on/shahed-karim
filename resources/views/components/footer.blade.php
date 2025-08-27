@@ -17,15 +17,15 @@
                               <div class="tp-footer-3__widget">
                                  <div class="tp-footer-3__widget-top d-flex align-items-center justify-content-between">
                                     <div class="tp-footer-3__logo">
-                                       <a href="contact.html">
+                                       <a href="{{route('contact')}}">
                                           <img src="assets/img/logo/logo.png" alt="">
                                        </a>
                                     </div>
                                     <div class="tp-footer-3__menu tp_title_anim">
                                        <ul>
-                                          <li><a href="about-me.html">About</a></li>
-                                          <li><a href="portfolio.html">Works</a></li>
-                                          <li><a href="service.html">Services</a></li>
+                                           <li><a href="{{route('about')}}"> About</a></li>
+                                 <li><a href="{{route('portfolio')}}"> Portfolio</a></li>
+                                 <li><a href="{{route('learn.me')}}"> Learn with me</a></li>
                                        </ul>
                                     </div>
                                  </div>

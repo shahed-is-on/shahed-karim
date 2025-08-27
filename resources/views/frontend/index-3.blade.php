@@ -38,10 +38,13 @@
                 </div>
             </div>
             <div class="tp-hero-3__social-wrap d-none d-lg-inline-flex">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Dribble</a>
-                <a href="#">Instagram</a>
+             
+                <a href="https://www.facebook.com/info.shahedkarim">Facebook</a>
+                <a href="https://www.instagram.com/s_ha_he_d/">Instagram</a>
+                <a href="https://www.behance.net/infoshahedkarim">Behance</a>
+                <a href="https://github.com/infoshahedkarim">Github</a>
+                <a href="https://www.linkedin.com/in/shahedkarim/">Linkedin</a>
+                  
             </div>
             <a href="#service">
                 <div class="tp-hero-3__scrool-down d-none d-lg-inline-flex">
@@ -63,20 +66,20 @@
                     <div class="col-xl-12">
                         <div class="tp-hero-3__content">
                             <h3 class="tp-hero-3__title tp-char-animation">
-                                Creative
+                                Shahed
                                 <span>
                                     <video autoplay="" playsinline="">
                                         <source src="https://template.wphix.com/video/diego-video.mp4" type="video/mp4">
                                     </video>
                                 </span>
-                                Visual Designer
+                                Karim
                             </h3>
                         </div>
                         <div
                             class="tp-hero-3__btn-box tp_wrap_anim d-flex align-items-center justify-content-start justify-content-md-center">
                             <div class="tp-btn-bounce-3">
-                                <a class="tp-btn-blue" href="portfolio.html">
-                                    <span class="text"> View Our Work</span>
+                                <a class="tp-btn-blue" href="{{route('portfolio')}}">
+                                    <span class="text"> Portfolio</span>
                                     <span class="icon">
                                         <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -88,8 +91,7 @@
                                     </span>
                                 </a>
                             </div>
-                            <p>Hello, I am Diego a designer from Barcelona. Specialised <br> in creating fantastic digital
-                                experiences.!</p>
+                            <p>Hello, I am Shahed Karim, a software engineer from Bangladesh. Specialized <br> in Machine Learning | ERP Software | E-Commerce</p>
                         </div>
                     </div>
                 </div>
@@ -102,9 +104,9 @@
             class="tp-service-3__area services-panel-area tp-service-3__overlay-bg black-bg-2 pt-150 pb-125 z-index-1 cursor-style">
 
             <div class="tp-service-3__circle-img">
-                <span class="text-img">
+                {{-- <span class="text-img">
                     <img src="assets/img/footer/footer-circle-img.png" alt="">
-                </span>
+                </span> --}}
                 <div class="shape">
                     <svg width="260" height="70" viewBox="0 0 260 70" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -230,10 +232,6 @@
                                         <span>Workshops</span>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="tp-service-3__btn-box">
-                                <a href="contact.html">Call me to get more extra service <span>Call Now</span></a>
                             </div>
                         </div>
                     </div>

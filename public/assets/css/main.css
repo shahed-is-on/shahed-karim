@@ -11955,11 +11955,17 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
 /*----------------------------------------*/
 .tp-footer-3__img {
   position: absolute;
-  bottom: 0;
-  right: 160px;
+  top: 100px;
+  left:1300px;
   z-index: -1;
   mix-blend-mode: luminosity;
 }
+
+.tp-footer-3__img img {
+  width: 98%; 
+  height: auto; 
+}
+
 .tp-footer-3__shape-1 {
   position: absolute;
   top: 0;
@@ -11976,7 +11982,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../img/footer/overly-bg.png);
+  /* background: url(../img/footer/overly-bg.png); */
   z-index: -1;
 }
 .tp-footer-3__logo img {
@@ -18016,7 +18022,8 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   }
 }
 .contact-inner__title span img {
-  border-radius: 100px;
+  border-radius: 10px;
+  width:120px;
   -webkit-transform: translateY(-9px);
   -moz-transform: translateY(-9px);
   -ms-transform: translateY(-9px);

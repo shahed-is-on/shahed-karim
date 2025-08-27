@@ -62,11 +62,12 @@
                
                <div class="tpoffcanvas__right-info">
                   <div class="tpoffcanvas__tel">
-                     <a href="tel:61404093954">+61404093 954</a>
+                     <a href="tel:+8801531542756">+880 153 154 2756</a><br>
+                     <a href="tel:+8801898878819">+880 189 887 8819</a>
                   </div>
                   <div class="tpoffcanvas__mail">
-                     <a href="mailto:hellocontact@diego.com">
-                        hello contact@diego.com</a>
+                     <a href="mailto:info.shahedkarim@gmail.com">
+                        hello info.shahedkarim@gmail.com</a>
                   </div>
                   <div class="tpoffcanvas__text">
                      <p>If in doubt. reach out.</p>
@@ -75,10 +76,12 @@
                
                <div class="tpoffcanvas__social-link">
                   <ul>
-                     <li><a href="#">Dribbble</a></li>
-                     <li><a href="#">Instagram</a></li>
-                     <li><a href="#">Linkedin</a></li>
-                     <li><a href="#">Behance</a></li>
+                     <li><a href="https://www.linkedin.com/in/shahedkarim/">Linkedin</a></li>
+                     <li><a href="https://github.com/infoshahedkarim">Github</a></li>
+                     <li><a href="https://www.behance.net/infoshahedkarim">Behance</a></li>
+                     <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=info.shahedkarim@gmail.com">Email</a></li>
+                     <li><a href="https://www.instagram.com/s_ha_he_d/">Instagram</a></li>
+                     <li><a href="https://www.facebook.com/info.shahedkarim">Facebook</a></li>
                   </ul>
                </div>
             </div>
