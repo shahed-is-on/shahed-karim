@@ -38,6 +38,10 @@ Route::get('/contact', function() {
     return view ('frontend.contact');
 })->name('contact');
 
+Route::get('/backend', function() { 
+    return view ('backend.index');
+})->name('backend.index');
+
 Route::get('/learnwithme', [BlogController::class, 'learnwithme'])->name('learn.me');
 
 Route::get('dashboard', function () {
