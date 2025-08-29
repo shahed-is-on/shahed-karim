@@ -1,7 +1,7 @@
-@extends('layouts.front-two')
+@extends('layouts.backend')
 
 @section('content')
-<div class="container">
+<div class="container" style="margin-top: 25px">
     <div class="d-flex justify-content-between mb-3">
         <h3>Categories</h3>
         <a href="{{ route('categories.create') }}" class="btn btn-primary">+ New Category</a>

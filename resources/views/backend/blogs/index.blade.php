@@ -1,7 +1,7 @@
-@extends('layouts.front-two')
+@extends('layouts.backend')
 
 @section('content')
-<div class="container">
+<div class="container" style="margin-top: 25px">
   <div class="d-flex justify-content-between align-items-center mb-3">
     <h3>Blogs</h3>
     <a class="btn btn-primary" href="{{ route('blogs.create') }}">+ New Blog</a>

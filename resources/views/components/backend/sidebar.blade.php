@@ -3,11 +3,11 @@
     <div class="brand">
         <a href="index.html" class="logo">
             <span>
-                <img src="{{asset('backend/assets/images/logo-sm.png')}}" alt="logo-small" class="logo-sm">
+                <img src="{{asset('assets/img/logo/logo.png')}}" alt="logo-small" class="logo-sm">
             </span>
             <span class="">
-                <img src={{asset('assets/img/logo/logo.png')}} alt="logo-large" class="logo-lg logo-light" style="width:160px;height:auto; margin-top:30px">
-                <img src={{asset('assets/img/logo/logo-black.png')}} alt="logo-large" class="logo-lg logo-dark" style="width:160px;height:auto; margin-top:30px">
+                <img src={{asset('assets/img/logo/logo.png')}} alt="logo-large" class="logo-lg logo-light">
+                <img src={{asset('assets/img/logo/logo-black.png')}} alt="logo-large" class="logo-lg logo-dark">
             </span>
         </a>
     </div>
@@ -28,7 +28,81 @@
                             <span>Dashboard</span>
                             <span class="badge text-bg-info ms-auto">New</span>
                         </a>
-                    </li><!--end nav-item-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sidebarTransactions" data-bs-toggle="collapse" role="button"
+                            aria-expanded="false" aria-controls="sidebarTransactions">
+                            <i class="fab fa-slack-hash menu-icon"></i>
+                            <span>Category</span>
+                        </a>
+                        <div class="collapse " id="sidebarTransactions">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('categories.index')}}">Lists of Categories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('categories.create')}}">Add Category</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sidebarTransactions2" data-bs-toggle="collapse" role="button"
+                            aria-expanded="false" aria-controls="sidebarTransactions2">
+                            <i class="iconoir-task-list menu-icon"></i>
+                            <span>Learn with Me</span>
+                        </a>
+                        <div class="collapse " id="sidebarTransactions2">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('blogs.index')}}">Lists of Content</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('blogs.create')}}">Add Content</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sidebarTransactions1" data-bs-toggle="collapse" role="button"
+                            aria-expanded="false" aria-controls="sidebarTransactions1">
+                            <i class="iconoir-keyframes-couple menu-icon"></i>
+                            <span>Information</span>
+                        </a>
+                        <div class="collapse " id="sidebarTransactions1">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('infos.index')}}">Lists of Information</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sidebarTransactions0" data-bs-toggle="collapse" role="button"
+                            aria-expanded="false" aria-controls="sidebarTransactions0">
+                            <i class="iconoir-palette menu-icon"></i>
+                            <span>Icons</span>
+                        </a>
+                        <div class="collapse " id="sidebarTransactions0">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('icons.index')}}">Font Awesome</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('icons.indey')}}">Line Awesome Icons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('icons.indez')}}">Icofont Icons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('icons.indea')}}">Iconoir Icons</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    
+                    <!--end nav-item-->
                    {{-- <li class="nav-item">
                         <a class="nav-link" href="payment.html">
                             <i class="iconoir-hand-cash menu-icon"></i>
@@ -431,8 +505,9 @@
                                 </li><!--end nav-item-->
                             </ul><!--end nav-->
                         </div><!--end startbarAuthentication-->
-                    </li><!--end nav-item--> --}}
+                    </li><!--end nav-item--> --}}       
                 </ul><!--end navbar-nav--->
+                
             </div>
         </div><!--end startbar-collapse-->
     </div><!--end startbar-menu-->

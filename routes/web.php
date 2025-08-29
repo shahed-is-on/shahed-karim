@@ -40,7 +40,23 @@ Route::get('/contact', function() {
 
 Route::get('/controller', function() { 
     return view ('backend.index');
-})->name('backend.index');
+})->middleware(['auth', 'verified'])->name('backend.index');
+
+Route::get('/icons', function() { 
+    return view ('backend.icon1');
+})->name('icons.index');
+
+Route::get('/icons-u', function() { 
+    return view ('backend.icon3');
+})->name('icons.indey');
+
+Route::get('/icons-i', function() { 
+    return view ('backend.icon2');
+})->name('icons.indez');
+
+Route::get('/icons-m', function() { 
+    return view ('backend.icon');
+})->name('icons.indea');
 
 Route::get('/learnwithme', [BlogController::class, 'learnwithme'])->name('learn.me');
 
@@ -49,8 +65,8 @@ Route::get('dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 
-Route::resource('blogs', BlogController::class);
-Route::resource('categories', CategoryController::class)->except(['show']);
+Route::resource('blogs', BlogController::class)->middleware(['auth', 'verified']);
+Route::resource('categories', CategoryController::class)->except(['show'])->middleware(['auth', 'verified']);
 Route::resource('infos', InfoController::class);
 
 

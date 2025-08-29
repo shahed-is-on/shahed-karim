@@ -1,7 +1,7 @@
-@extends('layouts.front-two')
+@extends('layouts.backend')
 
 @section('content')
-<div class="container">
+<div class="container" style="margin-top: 25px">
     <h3>Edit Category</h3>
     <form method="POST" action="{{ route('categories.update', $category) }}">
         @csrf

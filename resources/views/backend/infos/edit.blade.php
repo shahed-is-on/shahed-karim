@@ -1,7 +1,7 @@
-@extends('layouts.front-two')
+@extends('layouts.backend')
 
 @section('content')
-<div class="container">
+<div class="container" style="margin-top: 25px">
   <h3>Edit Info</h3>
   <form method="post" action="{{ route('infos.update', $info) }}" enctype="multipart/form-data">
     @method('PUT')
