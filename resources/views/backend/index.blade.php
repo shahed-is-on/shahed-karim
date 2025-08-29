@@ -1,10 +1,6 @@
 @extends('layouts.backend')
 
 @section('content')
-    <div class="page-wrapper">
-
-        <!-- Page Content-->
-        <div class="page-content">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
@@ -12,7 +8,7 @@
                             <h4 class="page-title">Dashboard</h4>
                             <div class="">
                                 <ol class="breadcrumb mb-0">
-                                    <li class="breadcrumb-item"><a href="#">Approx</a>
+                                    <li class="breadcrumb-item"><a href="#">Shahed Karim</a>
                                     </li><!--end nav-item-->
                                     <li class="breadcrumb-item active">Dashboard</li>
                                 </ol>
@@ -730,6 +726,5 @@
                     </div> <!--end col-->
                 </div><!--end row-->
             </div><!-- container -->
-        </div>
-    </div>
+    
 @endsection

@@ -3,11 +3,11 @@
     <div class="brand">
         <a href="index.html" class="logo">
             <span>
-                <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                <img src="{{asset('backend/assets/images/logo-sm.png')}}" alt="logo-small" class="logo-sm">
             </span>
             <span class="">
-                <img src="assets/images/logo-light.png" alt="logo-large" class="logo-lg logo-light">
-                <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                <img src={{asset('assets/img/logo/logo.png')}} alt="logo-large" class="logo-lg logo-light" style="width:160px;height:auto; margin-top:30px">
+                <img src={{asset('assets/img/logo/logo-black.png')}} alt="logo-large" class="logo-lg logo-dark" style="width:160px;height:auto; margin-top:30px">
             </span>
         </a>
     </div>
@@ -23,13 +23,13 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="{{route('backend.index')}}">
                             <i class="iconoir-report-columns menu-icon"></i>
                             <span>Dashboard</span>
                             <span class="badge text-bg-info ms-auto">New</span>
                         </a>
                     </li><!--end nav-item-->
-                    <li class="nav-item">
+                   {{-- <li class="nav-item">
                         <a class="nav-link" href="payment.html">
                             <i class="iconoir-hand-cash menu-icon"></i>
                             <span>Payment</span>
@@ -431,18 +431,8 @@
                                 </li><!--end nav-item-->
                             </ul><!--end nav-->
                         </div><!--end startbarAuthentication-->
-                    </li><!--end nav-item-->
+                    </li><!--end nav-item--> --}}
                 </ul><!--end navbar-nav--->
-                <div class="update-msg text-center">
-                    <div
-                        class="d-flex justify-content-center align-items-center thumb-lg update-icon-box  rounded-circle mx-auto">
-                        <!-- <i class="iconoir-peace-hand h3 align-self-center mb-0 text-primary"></i> -->
-                        <img src="assets/images/extra/gold.png" alt="" class="" height="45">
-                    </div>
-                    <h5 class="mt-3">Today's <span class="text-white">$2450.00</span></h5>
-                    <p class="mb-3 text-muted">Today's best Investment for you.</p>
-                    <a href="javascript: void(0);" class="btn text-primary shadow-sm rounded-pill px-3">Invest Now</a>
-                </div>
             </div>
         </div><!--end startbar-collapse-->
     </div><!--end startbar-menu-->

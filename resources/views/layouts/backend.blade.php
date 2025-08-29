@@ -6,11 +6,14 @@
         <div id="smooth-content">
             <x-backend.topbar />
             <x-backend.sidebar />
-
-            @yield('content')
-
             <x-backend.rightbar />
-            <x-backend.footer />
+            <div class="page-wrapper">
+                <div class="page-content">
+
+                    @yield('content')
+                    <x-backend.footer />
+                </div>
+            </div>
             <x-backend.script />
         </div>
     </div>

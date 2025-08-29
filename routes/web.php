@@ -38,7 +38,7 @@ Route::get('/contact', function() {
     return view ('frontend.contact');
 })->name('contact');
 
-Route::get('/backend', function() { 
+Route::get('/controller', function() { 
     return view ('backend.index');
 })->name('backend.index');
 

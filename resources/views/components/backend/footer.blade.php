@@ -5,15 +5,12 @@
                 <div class="card mb-0 rounded-bottom-0">
                     <div class="card-body">
                         <p class="text-muted mb-0">
-                            ©
+                            © Copyright
                             <script>
                                 document.write(new Date().getFullYear())
                             </script>
-                            Approx
-                            <span class="text-muted d-none d-sm-inline-block float-end">
-                                Design with
-                                <i class="iconoir-heart-solid text-danger align-middle"></i>
-                                by Mannatthemes</span>
+                            Shahed Karim.
+                            <span class="text-muted d-none d-sm-inline-block float-end">All Rights Reserve</span>
                         </p>
                     </div>
                 </div>

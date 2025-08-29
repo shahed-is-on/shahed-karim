@@ -22,16 +22,16 @@
                 <li class="dropdown">
                     <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#"
                         role="button" aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
-                        <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-sm rounded-circle">
+                        <img src={{asset('backend/assets/images/flags/us_flag.jpg')}} alt="" class="thumb-sm rounded-circle">
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg"
+                        <a class="dropdown-item" href="#"><img src={{asset('backend/assets/images/flags/us_flag.jpg')}}
                                 alt="" height="15" class="me-2">English</a>
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg"
+                        <a class="dropdown-item" href="#"><img src={{asset('backend/assets/images/flags/spain_flag.jpg')}}
                                 alt="" height="15" class="me-2">Spanish</a>
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg"
+                        <a class="dropdown-item" href="#"><img src={{asset('backend/assets/images/flags/germany_flag.jpg')}}
                                 alt="" height="15" class="me-2">German</a>
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg"
+                        <a class="dropdown-item" href="#"><img src={{asset('backend/assets/images/flags/french_flag.jpg')}}
                                 alt="" height="15" class="me-2">French</a>
                     </div>
                 </li><!--end topbar-language-->
@@ -44,12 +44,12 @@
                 </li>
 
                 <li class="dropdown topbar-item">
-                    <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#"
+                    <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown---" target="_blank" href="{{route('nest')}}"
                         role="button" aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
-                        <i class="iconoir-bell"></i>
+                        <i class="iconoir-home"></i>
                         <span class="alert-badge"></span>
                     </a>
-                    <div class="dropdown-menu stop dropdown-menu-end dropdown-lg py-0">
+                    {{-- <div class="dropdown-menu stop dropdown-menu-end dropdown-lg py-0">
 
                         <h5 class="dropdown-item-text m-0 py-3 d-flex justify-content-between align-items-center">
                             Notifications <a href="#" class="badge text-body-tertiary badge-pill">
@@ -239,18 +239,18 @@
                         <a href="pages-notifications.html" class="dropdown-item text-center text-dark fs-13 py-2">
                             View All <i class="fi-arrow-right"></i>
                         </a>
-                    </div>
+                    </div> --}}
                 </li>
 
                 <li class="dropdown topbar-item">
                     <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#"
                         role="button" aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
-                        <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md rounded-circle">
+                        <img src={{asset('backend/assets/images/users/avatar-1.jpg')}} alt="" class="thumb-md rounded-circle">
                     </a>
                     <div class="dropdown-menu dropdown-menu-end py-0">
                         <div class="d-flex align-items-center dropdown-item py-2 bg-secondary-subtle">
                             <div class="flex-shrink-0">
-                                <img src="assets/images/users/avatar-1.jpg" alt=""
+                                <img src={{asset('backend/assets/images/users/avatar-1.jpg')}} alt=""
                                     class="thumb-md rounded-circle">
                             </div>
                             <div class="flex-grow-1 ms-2 text-truncate align-self-center">
