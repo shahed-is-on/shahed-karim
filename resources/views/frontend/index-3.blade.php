@@ -1,5 +1,10 @@
 @extends('layouts.frontend')
 
+@section('canonical')
+    <link rel="canonical" href="{{ url()->current() }}" />
+@endsection
+
+
 @section('content')
     <main>
 

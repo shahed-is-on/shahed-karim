@@ -4,9 +4,19 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>Diego - Personal Creative Portfolio & Resume HTML Template</title>
-   <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Portfolio: Shahed Karim</title>
+   <meta name="description" content="">
+   <meta name="author" content="@shahedkarim">
+   <meta name="image" content="{{ asset('assets/img/logo/logo.png') }}">
+   <meta property="og:image" content="{{ asset('assets/img/logo/logo.png') }}">
+   <meta property="og:image:alt" content="get no. 1 software solution now">
+   <meta name="og:title" content="shahedkarim - bangladeshi young software engineer">
+   <meta name="og:description" content="Get your business solutions ready today! E-commerce, ERP, LMS, POS and more">
+   <meta property="og:url" content="{{ url()->current() }}">
+   <meta property="og:type" content="website">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:image" content="{{ asset('assets/img/logo/logo.png') }}">
 
    <!-- Place favicon.ico in the root directory -->
    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/logo/favicon.png')}}">
@@ -1351,7 +1361,35 @@
    </main>
 
 
-<x-script/>
+   <script src="{{asset('assets/js/vendor/jquery.js')}}"></script>
+   <script src="{{asset('assets/js/bootstrap-bundle.js')}}"></script>
+   <script src="{{asset('assets/js/three.js')}}"></script>
+   <script src="{{asset('assets/js/gsap.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-scroll-smoother.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-scroll-trigger.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-scroll-to-plugin.js')}}"></script>
+   <script src="{{asset('assets/js/gsap-split-text.js')}}"></script>
+   <script src="{{asset('assets/js/webgl.js')}}"></script>
+
+   <script src="{{asset('assets/js/swiper-bundle.js')}}"></script>
+   <script src="{{asset('assets/js/slick.js')}}"></script>
+   <script src="{{asset('assets/js/wow.js')}}"></script>
+   <script src="{{asset('assets/js/pagepiling.js')}}"></script>
+   <script src="{{asset('assets/js/headroom.min.js')}}"></script>
+   <script src="{{asset('assets/js/magnific-popup.js')}}"></script>
+   <script src="{{asset('assets/js/nice-select.js')}}"></script>
+   <script src="{{asset('assets/js/purecounter.js')}}"></script>
+   <script src="{{asset('assets/js/hammer.js')}}"></script>
+   <script src="{{asset('assets/js/matter.js')}}"></script>
+   <script src="{{asset('assets/js/throwable.js')}}"></script>
+   <script src="{{asset('assets/js/isotope-pkgd.js')}}"></script>
+   <script src="{{asset('assets/js/imagesloaded-pkgd.js')}}"></script>
+   <script src="{{asset('assets/js/ajax-form.js')}}"></script>
+
+   <script src="{{asset('assets/js/theme-settings.js')}}"></script>
+   <script src="{{asset('assets/js/animated-headline.js')}}"></script>
+   <script src="{{asset('assets/js/main.js')}}"></script>
+   <script src="{{asset('assets/js/tp-cursor.js')}}"></script>
 
 </body>
 

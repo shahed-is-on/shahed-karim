@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-5">
                         <div class="ab-hero__title-box">
-                            <h3 class="ab-hero__title tp-char-animation">I’m Diego Luna</h3>
+                            <h3 class="ab-hero__title tp-char-animation">I’m Shahed Karim</h3>
                         </div>
                         <div class="ab-hero__btn-box">
                             <a class="tp-btn-border-sm" href="assets/img/cv/mycv.docx">

@@ -7,8 +7,8 @@
             <div class="row align-items-center">
                <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                   <div class="tp-header-3__logo">
-                     <a class="logo-white" href={{route('nest')}}><img src="assets/img/logo/logo.png" alt=""></a>
-                     <a class="logo-black" href={{route('nest')}}><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a class="logo-white" href={{route('nest')}}><img src="assets/img/logo/logo.png" alt="shahed-karim|software-engineer-bd"></a>
+                     <a class="logo-black" href={{route('nest')}}><img src="assets/img/logo/logo-black.png" alt="shahed-karim|software-engineer-bd"></a>
                   </div>
                </div>
                <div class="col-xl-6 d-none">
