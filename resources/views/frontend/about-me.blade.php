@@ -1,5 +1,15 @@
 @extends('layouts.front-two')
 
+@section('canonical')
+    <link rel="canonical" href="{{ url()->current() }}" />
+@endsection
+@section('description')
+
+@endsection
+@section('keywords')
+
+@endsection
+
 @section('content')
     <main>
 
@@ -873,5 +883,5 @@
 
     </main>
 
-    
+
 @endsection

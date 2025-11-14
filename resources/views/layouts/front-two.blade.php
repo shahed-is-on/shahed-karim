@@ -11,8 +11,9 @@
     <meta name="image" content="{{ asset('assets/img/logo/logo.png') }}">
     <meta property="og:image" content="{{ asset('assets/img/logo/logo.png') }}">
     <meta property="og:image:alt" content="get no. 1 software solution now">
-    <meta name="og:title" content="shahedkarim - bangladeshi young software engineer">
-    <meta name="og:description" content="Get your business solutions ready today! E-commerce, ERP, LMS, POS and more">
+    <meta name="og:title" content="Shahed Karim – Software Engineer | Laravel & Next.js Developer">
+    <meta name="og:description" content="Shahed Karim is a Software Engineer specializing in Laravel, Next.js, PHP, MySQL, and full-stack web applications.">
+    <meta name="og:keywords" content="Shahed Karim, Shahedkarim, Software Engineer Bangladesh, Laravel Developer, Next.js Developer, PHP Developer, Full Stack Developer Dhaka, Web Developer Portfolio, React Developer, MySQL Expert, DevOps Enthusiast, ecommerce developer, ERP developer, Fiber@Home, Eastern IT project, Dcon Design Studio, scalable web applications, software engineer portfolio, blockchain publication, CKD prediction thesis, AUST CSE engineer, tech enthusiast Bangladesh">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">

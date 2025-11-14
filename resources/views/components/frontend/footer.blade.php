@@ -30,10 +30,7 @@
                                     </div>
                                  </div>
                                  <div class="tp-footer-3__text">
-                                    <p class="tp_title_anim">
-                                       A template made for professional designers, photographers and all people <br>
-                                        who work with creativity and those who don't, this template is yours, use it <br>
-                                         as you want happy.</p>
+                                    <p class="tp_title_anim">Shahed Karim</p>
                                  </div>
                               </div>
                            </div>
@@ -63,7 +60,7 @@
                            <div class="row align-items-center">
                               <div class="col-xl-3 col-lg-3 col-md-3">
                                  <div class="tp-copyright-3__left text-center text-md-start">
-                                    <p>© 2024 Themepure.</p>
+                                    <p>© 2020 - <span id="year"></span> Shahed Karim.</p>
                                  </div>
                               </div>
                               <div class="col-xl-9 col-lg-9 col-md-9 d-none d-md-block">
@@ -81,4 +78,7 @@
                      </div>
                   </div>
                </div>
+               <script>
+                    document.getElementById("year").innerText = new Date().getFullYear();
+                </script>
             </footer>

@@ -5,13 +5,14 @@
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Portfolio: Shahed Karim</title>
-   <meta name="description" content="">
+   <title>Shahed Karim – Software Engineer</title>
+   <meta name="description" content="Shahed Karim is a Software Engineer specializing in Laravel, Next.js, PHP, MySQL, and full-stack web applications">
+   <meta name="keywords" content="Shahed Karim, Shahedkarim, Software Engineer Bangladesh, Laravel Developer, Next.js Developer, PHP Developer, Full Stack Developer Dhaka, Web Developer Portfolio, React Developer, MySQL Expert, DevOps Enthusiast, ecommerce developer, ERP developer, Fiber@Home, Eastern IT project, Dcon Design Studio, scalable web applications, software engineer portfolio, blockchain publication, CKD prediction thesis, AUST CSE engineer, tech enthusiast Bangladesh">
    <meta name="author" content="@shahedkarim">
    <meta name="image" content="{{ asset('assets/img/logo/logo.png') }}">
    <meta property="og:image" content="{{ asset('assets/img/logo/logo.png') }}">
    <meta property="og:image:alt" content="get no. 1 software solution now">
-   <meta name="og:title" content="shahedkarim - bangladeshi young software engineer">
+   <meta name="og:title" content="Shahed Karim – Software Engineer | Laravel & Next.js Developer">
    <meta name="og:description" content="Get your business solutions ready today! E-commerce, ERP, LMS, POS and more">
    <meta property="og:url" content="{{ url()->current() }}">
    <meta property="og:type" content="website">
@@ -52,11 +53,11 @@
                </div>
             </div>
          </div>
-      </div>  
+      </div>
    </div>
    <!-- pre loader area end -->
 
-   <!-- Begin magic cursor 
+   <!-- Begin magic cursor
    ======================== -->
    <div id="magic-cursor">
       <div id="ball"></div>
@@ -83,7 +84,7 @@
                      <span class="text">
                         <span>close</span>
                      </span>
-   
+
                      <span class="d-inline-block">
                         <span>
                            <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
@@ -95,7 +96,7 @@
                            </svg>
                         </span>
                      </span>
-                     
+
                   </button>
                </div>
             </div>
@@ -121,11 +122,11 @@
                         </svg>
                      </span>
                   </span>
-                  
+
                </button>
             </div>
             <div class="tp-offcanvas-right-inner d-flex flex-column justify-content-between h-100">
-               
+
                <div class="tpoffcanvas__right-info">
                   <div class="tpoffcanvas__tel">
                      <a href="tel:+8801531542756">+880 153 154 2756</a><br>
@@ -139,7 +140,7 @@
                      <p>If in doubt. reach out.</p>
                   </div>
                </div>
-               
+
                <div class="tpoffcanvas__social-link">
                   <ul>
                      <li><a href="https://www.linkedin.com/in/shahedkarim/">Linkedin</a></li>

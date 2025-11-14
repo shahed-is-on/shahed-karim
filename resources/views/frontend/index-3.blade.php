@@ -3,6 +3,12 @@
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}" />
 @endsection
+@section('description')
+
+@endsection
+@section('keywords')
+
+@endsection
 
 
 @section('content')
@@ -43,13 +49,13 @@
                 </div>
             </div>
             <div class="tp-hero-3__social-wrap d-none d-lg-inline-flex">
-             
+
                 <a href="https://www.facebook.com/info.shahedkarim">Facebook</a>
                 <a href="https://www.instagram.com/s_ha_he_d/">Instagram</a>
                 <a href="https://www.behance.net/infoshahedkarim">Behance</a>
                 <a href="https://github.com/infoshahedkarim">Github</a>
                 <a href="https://www.linkedin.com/in/shahedkarim/">Linkedin</a>
-                  
+
             </div>
             <a href="#service">
                 <div class="tp-hero-3__scrool-down d-none d-lg-inline-flex">
@@ -96,7 +102,7 @@
                                     </span>
                                 </a>
                             </div>
-                            <p>Hello, I am Shahed Karim, a software engineer from Bangladesh. Specialized <br> in Machine Learning | ERP Software | E-Commerce</p>
+                            <p>Shahed Karim is a Software Engineer specializing in Laravel, Next.js, PHP, MySQL, and full-stack web applications. Experienced in building scalable applications, eCommerce platforms, ERP systems, and portfolio websites. Skilled in DevOps, system design, problem-solving, and modern web technologies. Explore projects, skills, achievements, certifications, publications, and professional journey.</p>
                         </div>
                     </div>
                 </div>
@@ -379,5 +385,5 @@
 
 
     </main>
-    
+
 @endsection
